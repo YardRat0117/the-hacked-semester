@@ -1,0 +1,93 @@
+site_name: The Hacked Semester
+site_description: A practical course on developer tools and workflows
+site_url: https://yourusername.github.io/the-hacked-semester
+repo_url: https://github.com/yourusername/the-hacked-semester
+repo_name: yourusername/the-hacked-semester
+
+nav:
+  - Home: index.md
+  - Where to live?:
+      - live/index.md
+      - Terminal & Shell: live/terminal-shell.md
+      - WSL: live/wsl.md
+      - Linux Distros: live/linux-distros.md
+      - SSH: live/ssh.md
+  - Where to work?:
+      - work/index.md
+      - Vim: work/vim.md
+      - LSP: work/lsp.md
+      - Git: work/git.md
+      - GitHub & GitLab: work/github-gitlab.md
+  - Where to deliver?:
+      - deliver/index.md
+      - GNU Make: deliver/gnu-make.md
+      - CMake: deliver/cmake.md
+      - GDB: deliver/gdb.md
+  - Where to run?:
+      - run/index.md
+      - Docker: run/docker.md
+      - Virtual Machine: run/virtual-machine.md
+  - Where to talk?:
+      - talk/index.md
+      - Markdown: talk/markdown.md
+      - LaTeX & Overleaf: talk/latex-overleaf.md
+  - Exercises:
+      - exercises/index.md
+  - Examples:
+      - examples/index.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: dark
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_source: false
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/the-hacked-semester
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yourusername
+    - icon: fontawesome/solid/globe
+      link: https://yourwebsite.com

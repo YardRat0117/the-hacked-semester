@@ -1,0 +1,34 @@
+{
+  "name": "the-hacked-semester",
+  "version": "0.1.0",
+  "description": "A practical course on developer tools and workflows",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.{md,json,yml,yaml,js}\"",
+    "format:check": "prettier --check \"**/*.{md,json,yml,yaml,js}\"",
+    "lint:md": "markdownlint \"**/*.md\" --ignore node_modules --ignore .git",
+    "lint:md:fix": "markdownlint \"**/*.md\" --fix --ignore node_modules --ignore .git",
+    "lint": "pnpm run lint:md",
+    "lint:fix": "pnpm run lint:md:fix",
+    "test": "echo \"No tests yet\"",
+    "docs:serve": "./venv/bin/mkdocs serve",
+    "docs:build": "./venv/bin/mkdocs build",
+    "docs:deploy": "./venv/bin/mkdocs gh-deploy",
+    "prepare": "husky install"
+  },
+  "packageManager": "pnpm@8.15.0",
+  "keywords": [
+    "education",
+    "tools",
+    "developer",
+    "workflow",
+    "tutorial"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "markdownlint-cli": "^0.37.0",
+    "husky": "^8.0.0"
+  }
+}
