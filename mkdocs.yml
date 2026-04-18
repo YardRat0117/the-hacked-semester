@@ -1,8 +1,8 @@
 site_name: The Hacked Semester
 site_description: A practical course on developer tools and workflows
-site_url: https://yourusername.github.io/the-hacked-semester
-repo_url: https://github.com/yourusername/the-hacked-semester
-repo_name: yourusername/the-hacked-semester
+site_url: https://yardrat0117.github.io/the-hacked-semester
+repo_url: https://github.com/YardRat0117/the-hacked-semester
+repo_name: YardRat0117/the-hacked-semester
 
 nav:
   - Home: index.md
@@ -82,7 +82,7 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername/the-hacked-semester
+      link: https://github.com/YardRat0117/the-hacked-semester
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/yourusername
     - icon: fontawesome/solid/globe
