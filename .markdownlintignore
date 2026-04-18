@@ -1,0 +1,16 @@
+# Generated files
+site/
+_build/
+dist/
+
+# Dependencies
+node_modules/
+
+# Git
+.git/
+
+# OS files
+.DS_Store
+
+# License file (has special formatting)
+LICENSE

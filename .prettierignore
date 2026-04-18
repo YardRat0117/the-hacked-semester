@@ -1,0 +1,15 @@
+# Build outputs
+site/
+_build/
+dist/
+node_modules/
+
+# Git
+.git/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# MkDocs
+!.github/
