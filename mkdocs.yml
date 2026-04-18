@@ -31,10 +31,6 @@ nav:
       - talk/index.md
       - Markdown: talk/markdown.md
       - LaTeX & Overleaf: talk/latex-overleaf.md
-  - Exercises:
-      - exercises/index.md
-  - Examples:
-      - examples/index.md
 
 theme:
   name: material

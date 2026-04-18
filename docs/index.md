@@ -54,7 +54,7 @@ Suggestions and contributions are welcome! Please:
 
 ## License
 
-All content is licensed under [MIT License](LICENSE) unless otherwise specified.
+All content is licensed under [MIT License](../LICENSE) unless otherwise specified.
 
 ---
 
